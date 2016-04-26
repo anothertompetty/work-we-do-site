@@ -1,0 +1,52 @@
+.u-text-x-large {
+  font-size: $text-x-large;
+  line-height: $line-height-x-large;
+}
+
+.u-text-large {
+  font-size: $text-large;
+  line-height: $line-height-large;
+}
+
+.u-text-medium {
+  font-size: $text-medium;
+  line-height: $line-height-medium;
+}
+
+.u-text-small {
+  font-size: $text-small;
+  line-height: $line-height-small;
+}
+
+.u-text-normal {
+  font-weight: $font-weight-normal;
+}
+
+.u-text-heavy {
+  font-weight: $font-weight-heavy;
+}
+
+.u-text-left {
+  text-align: left;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-text-right {
+  text-align: right;
+}
+
+.u-text-italic {
+  font-family: $font-primary;
+  font-style: italic;
+}
+
+.u-text-upper {
+  text-transform: uppercase;
+}
+
+.u-text-no-smoothing {
+  -webkit-font-smoothing: subpixel-antialiased;
+}
