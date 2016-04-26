@@ -3,9 +3,17 @@
   line-height: $line-height-x-large;
 }
 
+p.u-text-x-large {
+  margin-bottom: 18px;
+}
+
 .u-text-large {
   font-size: $text-large;
   line-height: $line-height-large;
+}
+
+p.u-text-large {
+  margin-bottom: 12px;
 }
 
 .u-text-medium {
@@ -13,9 +21,17 @@
   line-height: $line-height-medium;
 }
 
+p.u-text-medium {
+  margin-bottom: 8px;
+}
+
 .u-text-small {
   font-size: $text-small;
   line-height: $line-height-small;
+}
+
+p.u-text-small {
+  margin-bottom: 6px;
 }
 
 .u-text-normal {

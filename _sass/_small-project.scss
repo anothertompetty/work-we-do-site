@@ -1,0 +1,14 @@
+.small-project {
+  display: inline-block;
+  width: 50%;
+  padding-top: $space-large;
+  padding-bottom: $space-large;
+}
+
+.small-project--first {
+  border-right: 1px solid #B1B1B1;
+}
+
+.small-project__inner {
+  max-width: 380px;
+}

@@ -1,0 +1,22 @@
+.founders {
+  padding-top: $space-large;
+  padding-bottom: $space-large;
+  border-top: 1px solid #B1B1B1;
+  border-bottom: 1px solid #B1B1B1;
+}
+
+.bio {
+  display: inline-block;
+  width: 33.333%;
+  padding-top: $space-large;
+  padding-bottom: $space-large;
+  border-right: 1px solid #B1B1B1;
+}
+
+.bio--last {
+  border: 0;
+}
+
+.bio__inner {
+  max-width: 280px;
+}

@@ -1,0 +1,10 @@
+.big-image {
+  width: 100%;
+  padding-top: $space-x-large;
+  padding-bottom: $space-x-large;
+  background-color: lightgrey;
+}
+
+.big-image__inner {
+  max-width: 580px;
+}
