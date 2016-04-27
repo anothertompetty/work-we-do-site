@@ -14,6 +14,13 @@ p.u-text-x-large {
   }
 }
 
+@media screen and (max-width: $width-mobile) {
+  .u-text-x-large {
+    font-size: $text-x-large / 1.5;
+    line-height: $line-height-x-large / 1.4;
+  }
+}
+
 .u-text-large {
   font-size: $text-large;
   line-height: $line-height-large;
