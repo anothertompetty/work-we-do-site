@@ -20,3 +20,25 @@
 .bio__inner {
   max-width: 280px;
 }
+
+@media screen and (max-width: $width-small) {
+  .bio {
+    display: block;
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #DDDDDD;
+  }
+
+  .bio--first {
+    padding-top: 0;
+  }
+
+  .bio--last {
+    border: 0px;
+    padding-bottom: 0;
+  }
+
+  .bio__inner {
+    max-width: 380px;
+  }
+}

@@ -9,6 +9,18 @@
   border-right: 1px solid #DDDDDD;
 }
 
+@media screen and (max-width: $width-small) {
+  .small-project {
+    display: block;
+    width: 100%;
+  }
+
+  .small-project--first {
+    border-right: 0;
+    border-bottom: 1px solid #DDDDDD;
+  }
+}
+
 .small-project__inner {
   max-width: 380px;
 }
