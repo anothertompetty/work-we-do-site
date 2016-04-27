@@ -32,12 +32,12 @@ p.u-text-large {
 
 @media screen and (max-width: $width-small) {
   .u-text-large {
-    font-size: $text-large / 1.2;
-    line-height: $line-height-large / 1.15;
+    font-size: $text-medium;
+    line-height: $line-height-medium;
   }
 
   p.u-text-large {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 }
 
@@ -48,17 +48,6 @@ p.u-text-large {
 
 p.u-text-medium {
   margin-bottom: 8px;
-}
-
-@media screen and (max-width: $width-small) {
-  .u-text-medium {
-    font-size: $text-medium / 1.1;
-    line-height: $line-height-medium / 1.15;
-  }
-
-  p.u-text-medium {
-    margin-bottom: 7px;
-  }
 }
 
 .u-text-small {
