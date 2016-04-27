@@ -1,3 +1,9 @@
 .body-copy {
   max-width: 580px;
 }
+
+@media screen and (max-width: $width-small) {
+  .body-copy {
+    max-width: 380px;
+  }
+}
