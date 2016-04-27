@@ -25,12 +25,12 @@ p.u-text-large {
 
 @media screen and (max-width: $width-small) {
   .u-text-large {
-    font-size: $text-large / 1.333;
-    line-height: $line-height-large / 1.333;
+    font-size: $text-large / 1.2;
+    line-height: $line-height-large / 1.15;
   }
 
   p.u-text-large {
-    margin-bottom: 9px;
+    margin-bottom: 10px;
   }
 }
 
@@ -45,12 +45,12 @@ p.u-text-medium {
 
 @media screen and (max-width: $width-small) {
   .u-text-medium {
-    font-size: $text-medium / 1.2;
-    line-height: $line-height-medium / 1.3;
+    font-size: $text-medium / 1.1;
+    line-height: $line-height-medium / 1.15;
   }
 
   p.u-text-medium {
-    margin-bottom: 6px;
+    margin-bottom: 7px;
   }
 }
 
