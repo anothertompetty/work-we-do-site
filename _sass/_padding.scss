@@ -87,9 +87,23 @@
   padding-right: $space-x-large;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-padding-Hxl {
+    padding-left: $space-x-large / 1.5;
+    padding-right: $space-x-large / 1.5;
+  }
+}
+
 .u-padding-Hl {
   padding-left: $space-large;
   padding-right: $space-large;
+}
+
+@media screen and (max-width: $width-small) {
+  .u-padding-Hl {
+    padding-left: $space-large / 1.5;
+    padding-right: $space-large / 1.5;
+  }
 }
 
 .u-padding-Hm {
