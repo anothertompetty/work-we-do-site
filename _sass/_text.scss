@@ -7,6 +7,13 @@ p.u-text-x-large {
   margin-bottom: 18px;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-text-x-large {
+    font-size: $text-x-large / 1.333;
+    line-height: $line-height-x-large / 1.333;
+  }
+}
+
 .u-text-large {
   font-size: $text-large;
   line-height: $line-height-large;
@@ -16,6 +23,17 @@ p.u-text-large {
   margin-bottom: 12px;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-text-large {
+    font-size: $text-large / 1.333;
+    line-height: $line-height-large / 1.333;
+  }
+
+  p.u-text-large {
+    margin-bottom: 9px;
+  }
+}
+
 .u-text-medium {
   font-size: $text-medium;
   line-height: $line-height-medium;
@@ -23,6 +41,17 @@ p.u-text-large {
 
 p.u-text-medium {
   margin-bottom: 8px;
+}
+
+@media screen and (max-width: $width-small) {
+  .u-text-medium {
+    font-size: $text-medium / 1.2;
+    line-height: $line-height-medium / 1.3;
+  }
+
+  p.u-text-medium {
+    margin-bottom: 6px;
+  }
 }
 
 .u-text-small {
