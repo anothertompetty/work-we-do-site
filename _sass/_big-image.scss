@@ -8,3 +8,9 @@
 .big-image__inner {
   max-width: 580px;
 }
+
+@media screen and (max-width: $width-small) {
+  .big-image__inner {
+    max-width: 380px;
+  }
+}
