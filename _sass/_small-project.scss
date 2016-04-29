@@ -1,26 +1,33 @@
-.small-project {
+.capabilities {
+  width: 100%;
+  padding-top: $space-large;
+  padding-bottom: $space-large;
+  background-color: #D8EFED;
+}
+
+.capability {
   display: inline-block;
   width: 50%;
   padding-top: $space-large;
   padding-bottom: $space-large;
 }
 
-.small-project--first {
+.capability--first {
   border-right: 1px solid #DDDDDD;
 }
 
 @media screen and (max-width: $width-small) {
-  .small-project {
+  .capability {
     display: block;
     width: 100%;
   }
 
-  .small-project--first {
+  .capability--first {
     border-right: 0;
     border-bottom: 1px solid #DDDDDD;
   }
 }
 
-.small-project__inner {
+.capability__inner {
   max-width: 380px;
 }
