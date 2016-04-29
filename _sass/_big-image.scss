@@ -5,6 +5,25 @@
   background-color: #F7EBEB;
 }
 
+.big-image--enjoy {
+  background: url('../img/work/enjoy.jpg') top center no-repeat;
+  background-size: cover;
+  background-color: orange;
+  color: white;
+}
+
+.big-image--venmo {
+  background-color: #D8EFED;
+}
+
+.big-image--facebook {
+  background-color: #F7F9D7;
+}
+
+.big-image--minale {
+  background-color: #F8F8F8;
+}
+
 .big-image--smaller {
   padding-top: $space-x-large;
   padding-bottom: $space-x-large;
