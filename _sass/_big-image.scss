@@ -1,8 +1,13 @@
 .big-image {
   width: 100%;
+  padding-top: $space-x-large * 1.5;
+  padding-bottom: $space-x-large * 1.5;
+  background-color: #F7EBEB;
+}
+
+.big-image--smaller {
   padding-top: $space-x-large;
   padding-bottom: $space-x-large;
-  background-color: #F7EBEB;
 }
 
 .big-image__inner {
