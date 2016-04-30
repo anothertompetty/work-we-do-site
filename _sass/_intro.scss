@@ -1,13 +1,15 @@
 .intro {
   max-width: 700px;
-  margin-top: $space-x-large * 2;
-  margin-bottom: $space-x-large * 2;
+  margin-top: $space-x-large * 1.5;
+  margin-bottom: $space-x-large * 1.5;
   padding-left: $space-medium;
   padding-right: $space-medium;
 }
 
 @media screen and (max-width: $width-mobile) {
   .intro {
+    margin-top: $space-x-large;
+    margin-bottom: $space-x-large;
     padding-left: $space-small;
     padding-right: $space-small;
   }
