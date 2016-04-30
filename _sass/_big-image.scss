@@ -12,16 +12,19 @@
   color: white;
 }
 
+.big-image--minale {
+  background: url('../img/work/minale-and-london.jpg') top center no-repeat;
+  background-size: cover;
+  background-color: #F7F9D7;
+  color: white;
+}
+
 .big-image--venmo {
   background-color: #D8EFED;
 }
 
 .big-image--facebook {
   background-color: #F7F9D7;
-}
-
-.big-image--minale {
-  background-color: #F8F8F8;
 }
 
 .big-image__inner {
