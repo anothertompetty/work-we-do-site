@@ -1,4 +1,7 @@
-$font-primary: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import "fonts";
+$font-primary: 'Apercu-regular', 'Helvetica Neue', 'Helvetica', arial;
+$font-primary-bold: 'Apercu-bold', 'Helvetica Neue', 'Helvetica', arial;
+
 $font-weight-normal: 400;
 $font-weight-heavy: 700;
 
