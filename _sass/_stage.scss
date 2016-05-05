@@ -1,45 +1,67 @@
-.big-image {
+.stage {
   width: 100%;
-  padding-top: $space-x-large * 1.5;
-  padding-bottom: $space-x-large * 1.5;
+  padding-top: $space-x-large * 5;
+  padding-bottom: $space-large;
   background-color: #F7EBEB;
 }
 
-.big-image--enjoy {
+.stage--enjoy {
   background: url('../img/work/enjoy.jpg') top center no-repeat;
   background-size: cover;
   background-color: orange;
   color: white;
 }
 
-.big-image--minale {
+.stage--minale {
   background: url('../img/work/minale-and-london.jpg') top center no-repeat;
   background-size: cover;
   background-color: #FCE7E2;
   color: #222222;
 }
 
-.big-image--design-club {
+.stage--design-club {
   background: url('../img/work/design-club.jpg') top center no-repeat;
   background-size: cover;
   background-color: #333333;
   color: white;
 }
 
-.big-image--venmo {
+.stage--venmo {
   background-color: #D8EFED;
 }
 
-.big-image--facebook {
+.stage--facebook {
   background-color: #F7F9D7;
 }
 
-.big-image__inner {
-  max-width: 580px;
+.stage__inner {
+  max-width: 480px;
 }
 
 @media screen and (max-width: $width-small) {
-  .big-image__inner {
+  .stage__inner {
     max-width: 380px;
   }
+}
+
+.stage-nav {
+  position: absolute;
+  right: 40px;
+  margin-top: -80px;
+  z-index: 3;
+}
+
+.stage-nav__button {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 1px solid #333333;
+  border-radius: 80px;
+  padding-top: 7px;
+  margin-right: 8px;
+  text-decoration: none;
+}
+
+.stage-nav__button:last-of-type {
+  margin-right: 0;
 }

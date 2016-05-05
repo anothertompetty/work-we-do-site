@@ -1,7 +1,10 @@
 .intro {
+  position: absolute;
+  z-index: 2;
   max-width: 720px;
-  margin-top: $space-x-large * 1.5;
-  margin-bottom: $space-x-large * 1.5;
+  margin-top: $space-x-large * 2.5;
+  left: 0;
+  right: 0;
   padding-left: $space-medium;
   padding-right: $space-medium;
 }
