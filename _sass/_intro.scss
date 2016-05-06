@@ -1,16 +1,16 @@
 .intro {
-  max-width: 720px;
-  margin-top: $space-x-large * 1.5;
-  margin-bottom: $space-x-large * 1.5;
-  padding-left: $space-medium;
-  padding-right: $space-medium;
+  width: 100%;
+  padding: $space-x-large * 2.5 $space-medium;
+  background-color: #26E3B2;
+  color: white;
+}
+
+.intro__inner {
+  max-width: 780px;
 }
 
 @media screen and (max-width: $width-mobile) {
   .intro {
-    margin-top: $space-x-large;
-    margin-bottom: $space-x-large;
-    padding-left: $space-small;
-    padding-right: $space-small;
+    padding: $space-x-large $space-small;
   }
 }

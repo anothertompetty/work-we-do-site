@@ -4,7 +4,7 @@
 }
 
 p.u-text-x-large {
-  margin-bottom: 18px;
+  margin-bottom: $text-x-large / 2;
 }
 
 @media screen and (max-width: $width-small) {
@@ -27,7 +27,7 @@ p.u-text-x-large {
 }
 
 p.u-text-large {
-  margin-bottom: 12px;
+  margin-bottom: $text-large / 2; 
 }
 
 @media screen and (max-width: $width-small) {
@@ -37,7 +37,7 @@ p.u-text-large {
   }
 
   p.u-text-large {
-    margin-bottom: 9px;
+    margin-bottom: $text-medium / 2;
   }
 }
 
@@ -47,7 +47,7 @@ p.u-text-large {
 }
 
 p.u-text-medium {
-  margin-bottom: 9px;
+  margin-bottom: $text-medium / 2;
 }
 
 .u-text-small {
@@ -56,15 +56,16 @@ p.u-text-medium {
 }
 
 p.u-text-small {
-  margin-bottom: 6px;
+  margin-bottom: $text-small / 2;
 }
 
 .u-text-normal {
-  font-weight: $font-weight-normal;
+  font-family: $font-primary;
+  font-weight: normal;
 }
 
 .u-text-heavy {
-  font-weight: $font-weight-heavy;
+  font-family: $font-primary-bold;
 }
 
 .u-text-left {
