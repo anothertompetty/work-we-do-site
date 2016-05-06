@@ -1,8 +1,8 @@
 .stage {
   width: 100%;
-  padding-top: $space-x-large * 5;
-  padding-bottom: $space-large;
-  background-color: #F7EBEB;
+  padding-top: $space-x-large * 2.5;
+  padding-bottom: $space-x-large * 2.5;
+  background-color: #26E3B2;
 }
 
 .stage--enjoy {
@@ -35,7 +35,8 @@
 }
 
 .stage__inner {
-  max-width: 480px;
+  max-width: 580px;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: $width-small) {
@@ -46,9 +47,12 @@
 
 .stage-nav {
   position: absolute;
-  right: 40px;
-  margin-top: -80px;
-  z-index: 3;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  margin-top: -72px;
+  z-index: 2;
 }
 
 .stage-nav__button {

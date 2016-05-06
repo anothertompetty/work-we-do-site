@@ -60,11 +60,12 @@ p.u-text-small {
 }
 
 .u-text-normal {
-  font-weight: $font-weight-normal;
+  font-family: $font-primary;
+  font-weight: normal;
 }
 
 .u-text-heavy {
-  font-weight: $font-weight-heavy;
+  font-family: $font-primary-bold;
 }
 
 .u-text-left {
