@@ -1,12 +1,12 @@
 .intro {
   width: 100%;
   padding: $space-x-large * 2.5 $space-medium;
-  background-color: #26E3B2;
+  background-color: #111111;
   color: white;
 }
 
 .intro__inner {
-  max-width: 780px;
+  max-width: 880px;
 }
 
 @media screen and (max-width: $width-mobile) {
