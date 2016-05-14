@@ -59,6 +59,15 @@ p.u-text-small {
   margin-bottom: $text-small / 2;
 }
 
+.u-text-x-small {
+  font-size: $text-x-small;
+  line-height: $line-height-x-small;
+}
+
+p.u-text-small {
+  margin-bottom: $text-x-small / 2;
+}
+
 .u-text-normal {
   font-family: $font-primary;
   font-weight: normal;
@@ -87,6 +96,10 @@ p.u-text-small {
 
 .u-text-upper {
   text-transform: uppercase;
+}
+
+.u-color-primary {
+  color: $color-primary;
 }
 
 .u-text-no-smoothing {
