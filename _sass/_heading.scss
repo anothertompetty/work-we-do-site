@@ -1,0 +1,24 @@
+.heading {
+  width: 100%;
+  padding: $space-x-large * 2.5 $space-large;
+  background-color: #FDEFED;
+}
+
+.heading--about {
+  padding-bottom: 0;
+  background-color: $color-base-light;
+}
+
+.heading__inner {
+  max-width: 780px;
+}
+
+.heading__inner--about {
+  max-width: 980px;
+}
+
+@media screen and (max-width: $width-mobile) {
+  .heading {
+    padding: $space-x-large $space-small;
+  }
+}
