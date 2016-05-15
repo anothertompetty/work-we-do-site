@@ -1,8 +1,21 @@
 .stage {
   width: 100%;
+  margin-top: $space-large;
   padding-top: $space-x-large * 2.5;
   padding-bottom: $space-x-large * 2.5;
   background-color: #26E3B2;
+}
+
+@media screen and (max-width: $width-small) {
+  .stage {
+    margin-top: $space-large / 2;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .stage {
+    margin-top: 0;
+  }
 }
 
 .stage--enjoy {
