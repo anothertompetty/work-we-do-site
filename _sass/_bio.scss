@@ -1,6 +1,7 @@
 .bio {
   display: inline-block;
   width: 33.333%;
+  padding: 0 $space-medium;
   border-right: 1px solid #DDDDDD;
 }
 
@@ -33,6 +34,16 @@
   .bio--last {
     border: 0px;
     padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: $width-small) {
+  .bio {
+    padding: 0;
+  }
+
+  .bio__inner {
+    max-width: 100%;
   }
 }
 
