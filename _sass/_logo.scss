@@ -3,6 +3,17 @@
   z-index: 3;
 }
 
+@media screen and (max-width: $width-small) {
+  .logo {
+    position: relative;
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    margin-top: $space-large / 2;
+    margin-bottom: -50px; // offset where it's pushing down
+  }
+}
+
 .logo:hover {
   -webkit-animation: spin 1s ease infinite;
   -moz-animation: spin 1s ease infinite;
