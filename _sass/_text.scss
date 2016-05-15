@@ -50,6 +50,17 @@ p.u-text-medium {
   margin-bottom: $text-medium / 2;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-text-medium {
+    font-size: $text-small;
+    line-height: $line-height-small;
+  }
+
+  p.u-text-small {
+    margin-bottom: $text-small / 2;
+  }
+}
+
 .u-text-small {
   font-size: $text-small;
   line-height: $line-height-small;
