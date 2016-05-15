@@ -96,6 +96,16 @@ p.u-text-small {
   text-align: center;
 }
 
+.u-text-center-x-mob {
+  text-align: center;
+}
+
+@media screen and (max-width: $width-mobile) {
+  .u-text-center-x-mob {
+    text-align: left;
+  }
+}
+
 .u-text-right {
   text-align: right;
 }
