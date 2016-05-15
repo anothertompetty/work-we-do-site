@@ -1,5 +1,6 @@
 .heading {
   width: 100%;
+  margin-top: $space-large;
   padding: $space-x-large * 2.5 $space-large;
   background-color: #FDEFED;
 }
@@ -9,16 +10,27 @@
   background-color: $color-base-light;
 }
 
+@media screen and (max-width: $width-small) {
+  .heading {
+    margin-top: $space-large / 2;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .heading {
+    margin-top: 0;
+    padding: $space-x-large $space-small;
+  }
+
+  .heading--about {
+    padding-bottom: 0;
+  }
+}
+
 .heading__inner {
   max-width: 780px;
 }
 
 .heading__inner--about {
   max-width: 980px;
-}
-
-@media screen and (max-width: $width-mobile) {
-  .heading {
-    padding: $space-x-large $space-small;
-  }
 }

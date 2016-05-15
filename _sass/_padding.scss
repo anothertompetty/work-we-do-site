@@ -34,6 +34,12 @@
   padding-bottom: $space-x-large;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-padding-Bxl {
+    padding-bottom: $space-x-large / 2;
+  }
+}
+
 .u-padding-Bl {
   padding-bottom: $space-large;
 }
