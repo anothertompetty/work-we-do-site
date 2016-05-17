@@ -1,0 +1,92 @@
+.work {
+  width: 100%;
+  margin-top: $space-large;
+  padding-top: $space-x-large * 2.5;
+  padding-bottom: $space-x-large * 2.5;
+  background-color: #26E3B2;
+}
+
+@media screen and (max-width: $width-small) {
+  .work {
+    margin-top: $space-large / 2;
+  }
+}
+
+@media screen and (max-width: $width-mobile) {
+  .work {
+    margin-top: 0;
+  }
+}
+
+.work--enjoy {
+  background: url('../img/work/enjoy.jpg') top center no-repeat;
+  background-size: cover;
+  background-color: orange;
+  color: white;
+}
+
+.work--minale {
+  background: url('../img/work/minale-and-london.jpg') top center no-repeat;
+  background-size: cover;
+  background-color: #FCE7E2;
+  color: $color-base;
+}
+
+.work--design-club {
+  background: url('../img/work/design-club.jpg') top center no-repeat;
+  background-size: cover;
+  background-color: $color-base;
+  color: white;
+}
+
+.work--venmo {
+  background-color: #D8EFED;
+}
+
+.work--facebook {
+  background-color: #F7F9D7;
+}
+
+.work__about {
+  position: relative;
+  max-width: 100%;
+  min-height: 340px;
+  background-color: $color-secondary-light;
+}
+
+.work__about__title {
+  margin-left: $space-x-large;
+  margin-right: 50%;
+  vertical-align: top;
+}
+
+.work__about__story {
+  position: absolute;
+  max-width: 400px; // using both so can override with max-width in media query
+  min-width: 400px;
+  top: $space-x-large;
+  right: $space-x-large;
+}
+
+@media screen and (max-width: 1100px) {
+  .work__about__story {
+    max-width: 300px; // using both so can override with max-width in media query
+    min-width: 300px;
+  }
+}
+
+@media screen and (max-width: $width-medium + 140px) {
+  .work__about__title {
+    margin-right: $space-x-large; 
+  }
+
+  .work__about__story {
+    position: relative;
+    max-width: 100%;
+    top: auto;
+    right: auto;
+    margin-top: $space-large;
+    margin-left: $space-x-large;
+    margin-right: $space-x-large
+  }
+}
