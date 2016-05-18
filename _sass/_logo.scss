@@ -8,9 +8,10 @@
     position: relative;
     display: block;
     width: 50px;
-    margin: 0 auto;
+    // margin: 0 auto;
+    margin-left: $space-large / 2;
     margin-top: $space-large / 2;
-    margin-bottom: -50px; // offset where it's pushing down
+    // margin-bottom: -50px; // offset where it's pushing down
   }
 }
 
