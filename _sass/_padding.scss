@@ -73,6 +73,13 @@
   padding-bottom: $space-x-large;
 }
 
+@media screen and (max-width: $width-small) {
+  .u-padding-Vxl {
+    padding-top: $space-x-large / 2;
+    padding-bottom: $space-x-large / 2;
+  }
+}
+
 .u-padding-Vl {
   padding-top: $space-large;
   padding-bottom: $space-large;
